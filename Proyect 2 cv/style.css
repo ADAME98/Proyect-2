@@ -1,0 +1,86 @@
+html{
+    box-sizing: border-box;
+    height: 100%
+}
+/* para que no salga un scrool horizontal*/
+::-webkit-scrollbar {
+    display:none;
+}
+*,
+*::before,
+*::after{
+    margin:0;
+    padding: 0;
+    font-family: "Cinzel", Arial, Helvetica, sans-serif;
+    box-sizing: inherit;
+    
+}
+
+body {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-position: center;
+    background: url(media/background.jpg);
+}
+
+
+
+
+.titulo {
+    justify-content: center;
+    --fill-color: #7fffd4;
+    position: relative;
+    display: block;
+    padding: 4px 0;
+    font: 700 3rem Raleway, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px var(--fill-color);
+    background: linear-gradient(var(--fill-color) 50 100%) left / 0 no-repeat;
+    font-family: "Cinzel"
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+    .li{
+        padding: 6px 0;
+    }
+    a {
+        --fill-color: #f8f8f8;
+        position: relative;
+        display: block;
+        padding: 4px 0;
+        font: 400 2rem Raleway, "Cinzel";
+        text-decoration: none;
+        text-transform: uppercase;
+        -webkit-text-stroke: 2px var(--fill-color);
+        background: linear-gradient(var(--fill-color) 50 100%) left / 0 no-repeat;
+
+}
+
+    .no-repeat {
+        color: transparent;
+        background-clip: text;
+        transition: 0.3s linear;
+    }
+
+
+
+    
+.texto1 {
+    color: #7fffd4;
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: "Cinzel",Arial, Helvetica, sans-serif;
+}
+/*para poner px siempre dividir entre 16 y poner em, ejemplo: 6,25 em*/
+
